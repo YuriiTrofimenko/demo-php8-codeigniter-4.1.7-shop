@@ -10,7 +10,7 @@ class ItemModel extends Model {
     protected $returnType     = 'array';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['name', 'price', 'price_sale', 'quantity', 'description'];
+    protected $allowedFields = ['name', 'price', 'price_sale', 'quantity', 'info'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
