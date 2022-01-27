@@ -128,3 +128,4 @@ nb-configuration.xml
 # Custom
 
 node_modules/
+public/upload/images/

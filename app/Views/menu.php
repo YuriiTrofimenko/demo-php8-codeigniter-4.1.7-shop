@@ -11,8 +11,8 @@
                     Get All Items</a></li>
             <li class="nav-item"><a class="nav-link" href="/home/getItemDescription">
                     Get Item</a></li>
-            <li class="nav-item"><a class="nav-link" href="<?php echo site_url('home/getItemInfo2'); ?>">
-                    Select Item</a></li>
+            <li class="nav-item"><a class="nav-link" href="<?php echo site_url('home/selectImages'); ?>">
+                    Upload Image</a></li>
         </ul>
     </div>
 </nav>

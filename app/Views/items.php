@@ -12,7 +12,7 @@
             <th scope="col">sale price</th>
         </thead>
         <tbody>
-        <?foreach ($items as $item):?>
+        <?php foreach ($items as $item):?>
             <tr>
                 <th scope="row"><?= $item['id']?></th>
                 <td><?= $item['name']?></td>
@@ -20,7 +20,7 @@
                 <td><?= $item['quantity']?></td>
                 <td><?= $item['price_sale']?></td>
             </tr>
-        <? endforeach; ?>
+        <?php endforeach; ?>
         </tbody>
     </table>
 <?= $this->endSection() ?>
